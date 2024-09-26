@@ -1,0 +1,36 @@
+body,
+html {
+  scroll-behavior: smooth;
+}
+
+.home {
+  background: url("") center center/cover;
+  color: #fff;
+}
+
+.projects .project-card {
+  transition: transform 0.3s;
+}
+
+.projects .project-card:hover {
+  transform: scale(1.05);
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #fff;
+}
+
+body.dark-mode .navbar,
+body.dark-mode footer {
+  background-color: #1f1f1f;
+}
+body.dark-mode #projects {
+  background-color: #2c2c2c;
+}
+
+body.dark-mode .card {
+  background-color: #333;
+  border: none;
+  color: white;
+}
